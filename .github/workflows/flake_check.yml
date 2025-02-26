@@ -36,9 +36,9 @@ jobs:
         run: |
           BRANCH_NAME="${{ github.ref_name }}"
           if [[ "${{ job.status }}" == "success" ]]; then
-            MESSAGE="✅ Flake check for Rishabh5321/cursor-flake completed successfully on branch $BRANCH_NAME."
+            MESSAGE="✅ Flake check for Rishabh5321/akuse-flake completed successfully on branch $BRANCH_NAME."
           else
-            MESSAGE="❌ Flake check for Rishabh5321/cursor-flake failed on branch $BRANCH_NAME. Check GitHub Actions for details."
+            MESSAGE="❌ Flake check for Rishabh5321/akuse-flake failed on branch $BRANCH_NAME. Check GitHub Actions for details."
           fi
           curl -s -X POST https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage \
             -d chat_id=$CHAT_ID \
