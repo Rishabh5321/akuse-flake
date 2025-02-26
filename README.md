@@ -19,6 +19,13 @@ For more information about akuse, visit the [official website](https://github.co
 
 ## Installation
 
+You can install akuse via nix profile command like this
+  ```nix
+  nix profile install "github:Rishabh5321/akuse-flake#akuse"
+  ```
+
+OR You can use flakes if you want declarative config.
+
 To install akuse using this flake, follow these steps:
 
 1. Ensure you have flakes enabled in your NixOS configuration.
