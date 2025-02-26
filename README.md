@@ -32,7 +32,7 @@ To install akuse using this flake, follow these steps:
        akuse-flake.url = "github:Rishabh5321/akuse-flake";
      };
 
-     outputs = { self, nixpkgs, akuse }: {
+     outputs = { self, nixpkgs, akuse-flake }: {
        # Your existing configuration...
        
        nixosConfigurations.your-hostname = nixpkgs.lib.nixosSystem {
