@@ -1,6 +1,6 @@
 # akuse for NixOS
 
-This repository contains a Nix flake for packaging akuse, an AI-first code editor, for use on NixOS systems.
+This repository contains a Nix flake for packaging akuse, Simple and easy to use anime streaming desktop app without ads.
 
 ## Table of Contents
 
