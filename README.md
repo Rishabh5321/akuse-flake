@@ -15,7 +15,7 @@ This repository contains a Nix flake for packaging akuse, Simple and easy to use
 
 Simple and easy to use anime streaming desktop app without ads.
 
-For more information about akuse, visit the [official website](https://akuse.sh/).
+For more information about akuse, visit the [official website](https://github.com/akuse-app/akuse/).
 
 ## Installation
 
