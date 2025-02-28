@@ -52,6 +52,6 @@
       };
 
       # Set the default package to akuse
-      defaultPackage.${system} = self.packages.${system}.akuse;
+      packages.<system>.default.${system} = self.packages.${system}.akuse;
     };
 }
