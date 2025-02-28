@@ -49,9 +49,7 @@
       # Define the packages for the specified system
       packages.${system} = {
         inherit akuse;
+        default = akuse;  # Set the default package to akuse
       };
-
-      # Set the default package to akuse
-      packages.<system>.default.${system} = self.packages.${system}.akuse;
     };
 }
