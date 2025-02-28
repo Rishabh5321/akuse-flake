@@ -49,7 +49,7 @@
       # Define the packages for the specified system
       packages.${system} = {
         inherit akuse;
-        default = akuse;  # Set the default package to akuse
+        default = akuse; # Set the default package to akuse
       };
     };
 }
