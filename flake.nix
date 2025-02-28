@@ -3,7 +3,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs, ... }:
+  outputs = { nixpkgs, ... }:
     let
       # Define the system architecture
       system = "x86_64-linux";
