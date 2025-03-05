@@ -46,9 +46,9 @@ To install akuse using this flake, follow these steps:
          # ...
          modules = [
            # Add inputs.akuse-flake.packages.${system}.akuse to your pkgs file
-           ({ pkgs, ... }: {
-             environment.systemPackages = [ inputs.akuse-flake.packages.${system}.akuse ];
-           })
+          ({ pkgs, ... }: {
+            environment.systemPackages = [ inputs.akuse-flake.packages."x86_64-linux".akuse ];
+          })
          ];
        };
      };
