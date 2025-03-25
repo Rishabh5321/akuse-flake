@@ -1,4 +1,4 @@
-# akuse for NixOS
+# Akuse for NixOS
 
 This repository contains a Nix flake for packaging akuse, Simple and easy to use anime streaming desktop app without ads.
 
